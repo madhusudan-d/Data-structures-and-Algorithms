@@ -12,3 +12,5 @@ Output:
 "abababa" 
 "babab" 
 "ababa" 
+
+Complexity: O(n^2)
