@@ -5,6 +5,8 @@
 Example
 
 input:
+       
+       
        4->left=2
        4->right=6
        
