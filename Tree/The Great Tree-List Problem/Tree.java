@@ -11,8 +11,4 @@ public class Tree {
 		this.right=null;
 	}
 	
-	
-	
-	
-
 }
