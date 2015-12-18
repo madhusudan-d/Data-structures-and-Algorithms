@@ -1,0 +1,24 @@
+
+import java.util.*;
+
+public class QueueTree {
+	LinkedList<Tree> qe=new LinkedList<Tree>();
+	
+	public void enQueue(Tree t){
+		qe.addLast(t);
+	}
+	
+	public Tree deQueue(){
+		return qe.removeFirst();
+	}
+	
+	public boolean isEmpty(){
+		return qe.isEmpty();
+	}
+	
+	public Tree getfront(){
+		return qe.element();
+	}
+	
+	
+}
