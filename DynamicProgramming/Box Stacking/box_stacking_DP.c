@@ -65,7 +65,7 @@ maxStackHeightDP(struct Box *box,int n){
     n=3*n;
     int max_height[n];
 
-
+    //Here I have used Bubble Sort(n^2) temporarily for  .Please replace this with Quick sort(nlogn) which takes less time than bubble sort.  
     sort(all,n);
     for(i=0;i<n;i++)
         max_height[i]=all[i].h;
