@@ -79,6 +79,7 @@ maxStackHeightDP(struct Box *box,int n){
     int j;
     for(i=1;i<n;i++){
         for(j=0;j<i;j++){
+        	// can j be put on top of i
             if((all[j].w>all[i].w) && (all[j].d>all[i].d) && (max_height[i]<max_height[j]+all[i].h)){
                 max_height[i]=max_height[j]+all[i].h;
             }
