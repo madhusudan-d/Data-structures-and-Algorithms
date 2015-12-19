@@ -21,12 +21,12 @@ int min(int a,int b){
 int area(struct Box box){
     return (box.w*box.d);
 }
-swap(struct Box *a,struct Box *b){
-    struct Box *temp;
-    *temp=*a;
-    *a=*b;
-    *b=*temp;
-}
+//swap(struct Box *a,struct Box *b){
+//    struct Box *temp;
+//    *temp=*a;
+//    *a=*b;
+//    *b=*temp;
+//}
 
 sort(struct Box *box,int n){
     int i,j,max;
@@ -37,8 +37,11 @@ sort(struct Box *box,int n){
               max=j;
         }
         //printf("max :%d \n",max);
-        swap(&box[i],&box[max]);
-
+       // swap(&box[i],&box[max]);
+	struct Box temp;
+	temp=box[i];
+	box[i]=box[max];
+	box[max]=temp;
     }
 }
 
