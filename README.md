@@ -7,4 +7,4 @@ Multiple functions are implemented in same program. Need lot of refactoring.
 
 Explanation and comments are yet to be added.
 
-Will keep on adding solutions to other problems  when time permits.
+Will keep on adding solutions to other problems in future.
