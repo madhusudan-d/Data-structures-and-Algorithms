@@ -18,3 +18,8 @@ Will keep on adding solutions to other problems in future.
 		http://users.cis.fiu.edu/~prabakar/cop4722/Common/SortingIllustration.pdf
 ####Writing LRU cache
 		http://openmymind.net/Writing-An-LRU-Cache/
+
+####Dynamic programming(Video tutorials:simple explanation within short duration)
+		https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr
+
+
