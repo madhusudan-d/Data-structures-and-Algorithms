@@ -16,4 +16,5 @@ Will keep on adding solutions to other problems in future.
 ####External merge sort
 		http://faculty.simpson.edu/lydia.sinapova/www/cmsc250/LN250_Weiss/L17-ExternalSortEX1.htm
 		http://users.cis.fiu.edu/~prabakar/cop4722/Common/SortingIllustration.pdf
-
+####Writing LRU cache
+		http://openmymind.net/Writing-An-LRU-Cache/
