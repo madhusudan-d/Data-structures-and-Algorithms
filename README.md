@@ -11,7 +11,7 @@ Will keep on adding solutions to other problems in future.
 
 
 
-## Some important references
+## Some usefull links 
 
 ####External merge sort
 		http://faculty.simpson.edu/lydia.sinapova/www/cmsc250/LN250_Weiss/L17-ExternalSortEX1.htm
@@ -21,5 +21,8 @@ Will keep on adding solutions to other problems in future.
 
 ####Dynamic programming(Video tutorials:simple explanation within short duration)
 		https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr
+####Use cases of sorting algorithms
+
+		http://stackoverflow.com/questions/1933759/when-is-each-sorting-algorithm-used
 
 
