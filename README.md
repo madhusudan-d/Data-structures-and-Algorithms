@@ -8,3 +8,12 @@ Multiple functions are implemented in same program. Need lot of refactoring.
 Explanation and comments are yet to be added.
 
 Will keep on adding solutions to other problems in future.
+
+
+
+## Some important links
+
+####External merge sort
+		http://faculty.simpson.edu/lydia.sinapova/www/cmsc250/LN250_Weiss/L17-ExternalSortEX1.htm
+		http://users.cis.fiu.edu/~prabakar/cop4722/Common/SortingIllustration.pdf
+
