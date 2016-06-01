@@ -11,7 +11,7 @@ Will keep on adding solutions to other problems in future.
 
 
 
-## Some usefull links 
+## Some useful links 
 
 ####Big-O Cheat Sheet
 		http://bigocheatsheet.com/
