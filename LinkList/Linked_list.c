@@ -143,6 +143,20 @@ int palUsingRe(struct Node *head,struct Node **first){
     return res1;
 
 }
+//for checking if the loop exist in the linked list//
+ int detect loop(struct node** head)
+{
+struct node* temp1=head;
+struct node* temp2=head;
+while(temp1&&temp2&&temp2->next)
+{
+temp1->temp1->next;
+temp2=temp2->next->next;
+if(temp1==temp2)
+return 1;
+}
+return 0;
+}
 
 
 
@@ -153,7 +167,7 @@ void main()
 
  while(1){
     printf("enter option from below\n");
-    printf("\n1-create\n2-insert\n3-delete\n4-display\n6-count\n5-reverse using Recursion\n7-check for palindrome\n0-exit\n");
+    printf("\n1-create\n2-insert\n3-delete\n4-display\n6-count\n5-reverse using Recursion\n7-check for palindrome\n8-check for loop\n0-exit\n");
     scanf("%d",&option);
     switch(option){
 
@@ -174,6 +188,9 @@ void main()
             break;
         case 7:
             printf("\npalindrome status : %d\n",palUsingRe(HEAD,&HEAD));
+            break;
+        case 8:
+            printf("\nloop status: %d\n",detectloop(&HEAD));
             break;
         case 0:
             exit(0);
